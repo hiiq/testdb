@@ -1,0 +1,347 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "firstName": "Student",
+      "lastName": "1",
+      "username": "student1@examity.com",
+      "password": "Examity2017$",
+      "userType": "student"
+    },
+    {
+      "userId": 2,
+      "firstName": "Instructor",
+      "lastName": "1",
+      "username": "instructor1@examity.com",
+      "password": "Examity2017$",
+      "userType": "instructor"
+    }
+  ],
+  "courses": [
+    {
+      "courseId": 1,
+      "code": "#358882",
+      "name": "Biology 101",
+      "created": "09/07/2018"
+    },
+    {
+      "courseId": 2,
+      "code": "#358886",
+      "name": "Systems Engineering",
+      "created": "09/10/2018"
+    },
+    {
+      "courseId": 3,
+      "code": "#358887",
+      "name": "Psychology 101",
+      "created": "09/08/2018"
+    }
+  ],
+  "exams": [
+    {
+      "examId": 1,
+      "courseId": 1,
+      "name": "Final Exam",
+      "starts": "07/21/2019"
+    },
+    {
+      "examId": 2,
+      "courseId": 1,
+      "name": "Quiz 3",
+      "starts": "07/16/2019"
+    },
+    {
+      "examId": 3,
+      "courseId": 1,
+      "name": "Midterms",
+      "starts": "07/14/2019"
+    }
+  ],
+  "courseExams": [
+    {
+      "courseId": 1,
+      "code": "#358882",
+      "name": "Biology 101",
+      "created": "09/07/2018",
+      "lms": "Desire2Learn",
+      "testTakerTotal": "21",
+      "instructorId": 1,
+      "exams": [
+        {
+          "examId": 1,
+          "courseId": 1,
+          "name": "Final Exam",
+          "starts": "07/21/2019",
+          "testTakerInvited": "24",
+          "testTakerScheduled": "16"
+        },
+        {
+          "examId": 2,
+          "courseId": 1,
+          "name": "Quiz 3",
+          "starts": "07/16/2019",
+          "testTakerInvited": "24",
+          "testTakerScheduled": "20"
+        },
+        {
+          "examId": 3,
+          "courseId": 1,
+          "name": "Midterms",
+          "starts": "07/14/2019",
+          "testTakerInvited": "24",
+          "testTakerScheduled": "24"
+        }
+      ]
+    },
+    {
+      "courseId": 2,
+      "code": "#358886",
+      "name": "Systems Engineering",
+      "created": "09/10/2018",
+      "lms": "Blackboard",
+      "testTakerTotal": "18",
+      "instructorId": 1,
+      "exams": [
+        {
+          "examId": 4,
+          "courseId": 2,
+          "name": "Final Exam",
+          "starts": "07/21/2019"
+        },
+        {
+          "examId": 5,
+          "courseId": 2,
+          "name": "Quiz 3",
+          "starts": "07/16/2019"
+        },
+        {
+          "examId": 6,
+          "courseId": 2,
+          "name": "Midterms",
+          "starts": "07/14/2019"
+        }
+      ]
+    },
+    {
+      "courseId": 3,
+      "code": "#358887",
+      "name": "Psychology 101",
+      "created": "09/08/2018",
+      "lms": "Canvas",
+      "testTakerTotal": "24",
+      "instructorId": 1,
+      "exams": [
+        {
+          "examId": 7,
+          "courseId": 3,
+          "name": "Final Exam",
+          "starts": "07/21/2019"
+        },
+        {
+          "examId": 8,
+          "courseId": 3,
+          "name": "Quiz 3",
+          "starts": "07/16/2019"
+        },
+        {
+          "examId": 9,
+          "courseId": 3,
+          "name": "Midterms",
+          "starts": "07/14/2019"
+        }
+      ]
+    }
+  ],
+  "examDetails": [
+    {
+      "examDetailId": 1,
+      "courseId": "#358880",
+      "studentId": 1,
+      "instructorId": 1,
+      "examId": 1,
+      "firstName": "Evan",
+      "lastName": "Winter",
+      "status": "Not yet scheduled",
+      "scheduled": "",
+      "flagTotal": 0,
+      "infoFlagTotal": 0,
+      "successFlagTotal": 0,
+      "warningFlagTotal": 0,
+      "errorFlagTotal": 0
+    },
+    {
+      "examDetailId": 2,
+      "courseId": "#358882",
+      "studentId": 2,
+      "instructorId": 1,
+      "examId": 1,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "status": "Ready for review",
+      "scheduled": "",
+      "flagTotal": 2,
+      "infoFlagTotal": 2,
+      "successFlagTotal": 0,
+      "warningFlagTotal": 0,
+      "errorFlagTotal": 0
+    },
+    {
+      "examDetailId": 3,
+      "courseId": "#358888",
+      "studentId": 3,
+      "instructorId": 1,
+      "examId": 1,
+      "firstName": "Oliver",
+      "lastName": "Smith",
+      "status": "Pending auditor",
+      "scheduled": "",
+      "flagTotal": 2,
+      "infoFlagTotal": 0,
+      "successFlagTotal": 2,
+      "warningFlagTotal": 0,
+      "errorFlagTotal": 0
+    },
+    {
+      "examDetailId": 4,
+      "courseId": "#358822",
+      "studentId": 4,
+      "instructorId": 1,
+      "examId": 1,
+      "firstName": "Cuba",
+      "lastName": "Gooding",
+      "status": "Scheduled",
+      "scheduled": "7/16/2019",
+      "flagTotal": 0,
+      "infoFlagTotal": 0,
+      "successFlagTotal": 0,
+      "warningFlagTotal": 0,
+      "errorFlagTotal": 0
+    }
+  ],
+  "testTakers": [
+    {
+      "studentId": 1,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "email": "j_doe@university.edu",
+      "status": "Updated",
+      "requirements": "No"
+    },
+    {
+      "studentId": 2,
+      "firstName": "Evan",
+      "lastName": "Winter",
+      "email": "e_win@university.edu",
+      "status": "Updated",
+      "requirements": "No"
+    },
+    {
+      "studentId": 3,
+      "firstName": "Oliver",
+      "lastName": "Smith",
+      "email": "o_smi@university.edu",
+      "status": "Updated",
+      "requirements": "1"
+    },
+    {
+      "studentId": 4,
+      "firstName": "Warren",
+      "lastName": "Gregory",
+      "email": "w_grg@university.edu",
+      "status": "Incomplete",
+      "requirements": "No"
+    },
+    {
+      "studentId": 5,
+      "firstName": "Cuba",
+      "lastName": "Gooding",
+      "email": "c_goo@university.edu",
+      "status": "Updated",
+      "requirements": "1"
+    },
+    {
+      "studentId": 6,
+      "firstName": "Sachin",
+      "lastName": "Tendulkar",
+      "email": "sachin@university.edu",
+      "status": "Updated",
+      "requirements": "No"
+    },
+    {
+      "studentId": 7,
+      "firstName": "Ranbir",
+      "lastName": "Kapoor",
+      "email": "ran_kapoor@university.edu",
+      "status": "Incomplete",
+      "requirements": "No"
+    },
+    {
+      "studentId": 8,
+      "firstName": "Sarah",
+      "lastName": "Bedrick",
+      "email": "s_bed@university.edu",
+      "status": "Updated",
+      "requirements": "No"
+    },
+    {
+      "studentId": 9,
+      "firstName": "Kimberly",
+      "lastName": "Bond",
+      "email": "kim_bond@university.edu",
+      "status": "Incomplete",
+      "requirements": "No"
+    },
+    {
+      "studentId": 10,
+      "firstName": "Neal",
+      "lastName": "Armstrong",
+      "email": "n_arm@university.edu",
+      "status": "Updated",
+      "requirements": "No"
+    }
+  ],
+  "statusOptions": [
+    {
+      "name": "Choose an option",
+      "value": ""
+    },
+    {
+      "name": "Ready for review",
+      "value": "Ready for review"
+    },
+    {
+      "name": "Pending auditor",
+      "value": "Pending auditor"
+    },
+    {
+      "name": "Not yet scheduled",
+      "value": "Not yet scheduled"
+    },
+    {
+      "name": "Scheduled",
+      "value": "Scheduled"
+    }
+  ],
+  "flagOptions": [
+    {
+      "name": "Choose an option",
+      "value": ""
+    },
+    {
+      "name": "Success",
+      "value": "successFlagTotal"
+    },
+    {
+      "name": "Warning",
+      "value": "warningFlagTotal"
+    },
+    {
+      "name": "Info",
+      "value": "infoFlagTotal"
+    },
+    {
+      "name": "Error",
+      "value": "errorFlagTotal"
+    }
+  ]
+}
