@@ -1,62 +1,4 @@
 {
-  "users": [
-    {
-      "userId": 1,
-      "firstName": "Student",
-      "lastName": "1",
-      "username": "student1@examity.com",
-      "password": "Examity2017$",
-      "userType": "student"
-    },
-    {
-      "userId": 2,
-      "firstName": "Instructor",
-      "lastName": "1",
-      "username": "instructor1@examity.com",
-      "password": "Examity2017$",
-      "userType": "instructor"
-    }
-  ],
-  "courses": [
-    {
-      "courseId": 1,
-      "code": "#358882",
-      "name": "Biology 101",
-      "created": "09/07/2018"
-    },
-    {
-      "courseId": 2,
-      "code": "#358886",
-      "name": "Systems Engineering",
-      "created": "09/10/2018"
-    },
-    {
-      "courseId": 3,
-      "code": "#358887",
-      "name": "Psychology 101",
-      "created": "09/08/2018"
-    }
-  ],
-  "exams": [
-    {
-      "examId": 1,
-      "courseId": 1,
-      "name": "Final Exam",
-      "starts": "07/21/2019"
-    },
-    {
-      "examId": 2,
-      "courseId": 1,
-      "name": "Quiz 3",
-      "starts": "07/16/2019"
-    },
-    {
-      "examId": 3,
-      "courseId": 1,
-      "name": "Midterms",
-      "starts": "07/14/2019"
-    }
-  ],
   "courseExams": [
     {
       "courseId": 1,
@@ -216,6 +158,132 @@
       "successFlagTotal": 0,
       "warningFlagTotal": 0,
       "errorFlagTotal": 0
+    }
+  ],
+  "testTakers": [
+    {
+      "studentId": 1,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "email": "j_doe@university.edu",
+      "status": "Updated",
+      "requirements": "No"
+    },
+    {
+      "studentId": 2,
+      "firstName": "Evan",
+      "lastName": "Winter",
+      "email": "e_win@university.edu",
+      "status": "Updated",
+      "requirements": "No"
+    },
+    {
+      "studentId": 3,
+      "firstName": "Oliver",
+      "lastName": "Smith",
+      "email": "o_smi@university.edu",
+      "status": "Updated",
+      "requirements": "1"
+    },
+    {
+      "studentId": 4,
+      "firstName": "Warren",
+      "lastName": "Gregory",
+      "email": "w_grg@university.edu",
+      "status": "Incomplete",
+      "requirements": "No"
+    },
+    {
+      "studentId": 5,
+      "firstName": "Cuba",
+      "lastName": "Gooding",
+      "email": "c_goo@university.edu",
+      "status": "Updated",
+      "requirements": "1"
+    },
+    {
+      "studentId": 6,
+      "firstName": "Sachin",
+      "lastName": "Tendulkar",
+      "email": "sachin@university.edu",
+      "status": "Updated",
+      "requirements": "No"
+    },
+    {
+      "studentId": 7,
+      "firstName": "Ranbir",
+      "lastName": "Kapoor",
+      "email": "ran_kapoor@university.edu",
+      "status": "Incomplete",
+      "requirements": "No"
+    },
+    {
+      "studentId": 8,
+      "firstName": "Sarah",
+      "lastName": "Bedrick",
+      "email": "s_bed@university.edu",
+      "status": "Updated",
+      "requirements": "No"
+    },
+    {
+      "studentId": 9,
+      "firstName": "Kimberly",
+      "lastName": "Bond",
+      "email": "kim_bond@university.edu",
+      "status": "Incomplete",
+      "requirements": "No"
+    },
+    {
+      "studentId": 10,
+      "firstName": "Neal",
+      "lastName": "Armstrong",
+      "email": "n_arm@university.edu",
+      "status": "Updated",
+      "requirements": "No"
+    }
+  ],
+  "statusOptions": [
+    {
+      "name": "Choose an option",
+      "value": ""
+    },
+    {
+      "name": "Ready for review",
+      "value": "Ready for review"
+    },
+    {
+      "name": "Pending auditor",
+      "value": "Pending auditor"
+    },
+    {
+      "name": "Not yet scheduled",
+      "value": "Not yet scheduled"
+    },
+    {
+      "name": "Scheduled",
+      "value": "Scheduled"
+    }
+  ],
+  "flagOptions": [
+    {
+      "name": "Choose an option",
+      "value": ""
+    },
+    {
+      "name": "Success",
+      "value": "successFlagTotal"
+    },
+    {
+      "name": "Warning",
+      "value": "warningFlagTotal"
+    },
+    {
+      "name": "Info",
+      "value": "infoFlagTotal"
+    },
+    {
+      "name": "Error",
+      "value": "errorFlagTotal"
     }
   ]
 }
